@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ugdSTfnfDfTN5SMprxHORQE9YdN8Zq0Xdcgi5lXs4kAN9zZeDo/qBWFLUdKv43ld/Y+F5Q59QoauUPiF963LwQ==",
+  "dgSpecHash": "yRgl0BEEELrpcGabACxSZWJ+NeaCky2qGdaRLIYTEiI2MF+ZL1eKD05c0bsS/PjCIiLK54r1Z99b6ZdvJ5iDNA==",
   "success": true,
-  "projectFilePath": "/Users/saltdev/Documents/Repos/10th-challenge/taketwo/dnfs-summer-22-test-efCdCollection/efCdCollection.Tests/efCdCollection.Tests.csproj",
+  "projectFilePath": "/Users/saltdev/Documents/Repos/10th-challenge/taketwo/dnfs-summer-22-test-efCdCollection/weekend/weekendtest10/efCdCollection.Tests/efCdCollection.Tests.csproj",
   "expectedPackageFiles": [
     "/Users/saltdev/.nuget/packages/castle.core/5.0.0/castle.core.5.0.0.nupkg.sha512",
     "/Users/saltdev/.nuget/packages/coverlet.collector/3.1.2/coverlet.collector.3.1.2.nupkg.sha512",

@@ -15,15 +15,17 @@ public class CDsController : ControllerBase
   [HttpGet]
   public async Task<ActionResult> GetAllCDs(string? genreName)
   {
-      var cds =  _context.CD.Select(c => c);
+    if (_context.CD == null) return NotFound("Server is experiencing technical difficulties, try again later");
 
-    if (genreName == null) 
+    var cds =  _context.CD.Select(c => c);
+
+    if (genreName == null || genreName == "") 
               return _context.CD != null 
               ? Ok(await cds.ToListAsync()) 
               : NotFound("No CDs found");
     
     var genreCDs = from cd in cds
-                    where cd.Genre.Name == genreName
+                    where cd.Genre.Name.ToLower() == genreName.ToLower()
                     select cd;
     
     return await genreCDs.FirstOrDefaultAsync() != null 
@@ -44,6 +46,8 @@ public class CDsController : ControllerBase
  [HttpPost]
   public async Task<ActionResult> CreateCD(string name, string? artist, string? description, string? genre)
   {
+    if (_context.CD == null) return NotFound("Server is experiencing technical difficulties, try again later");
+
     var newGenre = new Genre() { Name = genre };
     var existingGenre = _context.Genres?.FirstOrDefault(g => g.Name == genre);
 
@@ -65,6 +69,8 @@ public class CDsController : ControllerBase
   [HttpPut("{id}/artist")]
   public async Task<IActionResult> UpdateArtistForCD(int id, string artist)
   {
+    if (_context.CD == null) return NotFound("Server is experiencing technical difficulties, try again later");
+
     var cd = await _context.CD.FirstOrDefaultAsync(c => c.Id == id);
     if (cd == null)
     {
@@ -79,6 +85,8 @@ public class CDsController : ControllerBase
     [HttpPut("{id}/genre")]
   public async Task<IActionResult> UpdateGenreForCD(int id, string genreName)
   {
+    if (_context.CD == null) return NotFound("Server is experiencing technical difficulties, try again later");
+
     var cd = await _context.CD.FirstOrDefaultAsync(c => c.Id == id);
 
     if (cd == null) return NotFound("Can't find that CD, check ID");

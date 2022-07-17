@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Z2dUAMFZY0eEwKuyarFnMY0SsvsR2LakY1gFPwmCYBUtiqCFArATgXKgAnPjoD9O3tddrLcqTjvLsxI9ecF/gw==",
+  "dgSpecHash": "ZiK3PEeFcbM2sw3tCyp5G7kaSiAkwRWee5TzyzZJa08rAjlTqFwlkK+urtcF1Pw1uMsa2YkZQToOSgED/mp/TQ==",
   "success": true,
-  "projectFilePath": "/Users/saltdev/Documents/Repos/10th-challenge/taketwo/dnfs-summer-22-test-efCdCollection/efCdCollection.Api/efCdCollection.Api.csproj",
+  "projectFilePath": "/Users/saltdev/Documents/Repos/10th-challenge/taketwo/dnfs-summer-22-test-efCdCollection/weekend/weekendtest10/efCdCollection.Api/efCdCollection.Api.csproj",
   "expectedPackageFiles": [
     "/Users/saltdev/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/saltdev/.nuget/packages/messagepack/2.1.152/messagepack.2.1.152.nupkg.sha512",

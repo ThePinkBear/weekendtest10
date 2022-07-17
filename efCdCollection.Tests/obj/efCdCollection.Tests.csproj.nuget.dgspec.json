@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/saltdev/Documents/Repos/10th-challenge/taketwo/dnfs-summer-22-test-efCdCollection/efCdCollection.Tests/efCdCollection.Tests.csproj": {}
+    "/Users/saltdev/Documents/Repos/10th-challenge/taketwo/dnfs-summer-22-test-efCdCollection/weekend/weekendtest10/efCdCollection.Tests/efCdCollection.Tests.csproj": {}
   },
   "projects": {
-    "/Users/saltdev/Documents/Repos/10th-challenge/taketwo/dnfs-summer-22-test-efCdCollection/efCdCollection.Api/efCdCollection.Api.csproj": {
+    "/Users/saltdev/Documents/Repos/10th-challenge/taketwo/dnfs-summer-22-test-efCdCollection/weekend/weekendtest10/efCdCollection.Api/efCdCollection.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/saltdev/Documents/Repos/10th-challenge/taketwo/dnfs-summer-22-test-efCdCollection/efCdCollection.Api/efCdCollection.Api.csproj",
+        "projectUniqueName": "/Users/saltdev/Documents/Repos/10th-challenge/taketwo/dnfs-summer-22-test-efCdCollection/weekend/weekendtest10/efCdCollection.Api/efCdCollection.Api.csproj",
         "projectName": "efCdCollection.Api",
-        "projectPath": "/Users/saltdev/Documents/Repos/10th-challenge/taketwo/dnfs-summer-22-test-efCdCollection/efCdCollection.Api/efCdCollection.Api.csproj",
+        "projectPath": "/Users/saltdev/Documents/Repos/10th-challenge/taketwo/dnfs-summer-22-test-efCdCollection/weekend/weekendtest10/efCdCollection.Api/efCdCollection.Api.csproj",
         "packagesPath": "/Users/saltdev/.nuget/packages/",
-        "outputPath": "/Users/saltdev/Documents/Repos/10th-challenge/taketwo/dnfs-summer-22-test-efCdCollection/efCdCollection.Api/obj/",
+        "outputPath": "/Users/saltdev/Documents/Repos/10th-challenge/taketwo/dnfs-summer-22-test-efCdCollection/weekend/weekendtest10/efCdCollection.Api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/saltdev/.nuget/NuGet/NuGet.Config"
@@ -91,14 +91,14 @@
         }
       }
     },
-    "/Users/saltdev/Documents/Repos/10th-challenge/taketwo/dnfs-summer-22-test-efCdCollection/efCdCollection.Tests/efCdCollection.Tests.csproj": {
+    "/Users/saltdev/Documents/Repos/10th-challenge/taketwo/dnfs-summer-22-test-efCdCollection/weekend/weekendtest10/efCdCollection.Tests/efCdCollection.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/saltdev/Documents/Repos/10th-challenge/taketwo/dnfs-summer-22-test-efCdCollection/efCdCollection.Tests/efCdCollection.Tests.csproj",
+        "projectUniqueName": "/Users/saltdev/Documents/Repos/10th-challenge/taketwo/dnfs-summer-22-test-efCdCollection/weekend/weekendtest10/efCdCollection.Tests/efCdCollection.Tests.csproj",
         "projectName": "efCdCollection.Tests",
-        "projectPath": "/Users/saltdev/Documents/Repos/10th-challenge/taketwo/dnfs-summer-22-test-efCdCollection/efCdCollection.Tests/efCdCollection.Tests.csproj",
+        "projectPath": "/Users/saltdev/Documents/Repos/10th-challenge/taketwo/dnfs-summer-22-test-efCdCollection/weekend/weekendtest10/efCdCollection.Tests/efCdCollection.Tests.csproj",
         "packagesPath": "/Users/saltdev/.nuget/packages/",
-        "outputPath": "/Users/saltdev/Documents/Repos/10th-challenge/taketwo/dnfs-summer-22-test-efCdCollection/efCdCollection.Tests/obj/",
+        "outputPath": "/Users/saltdev/Documents/Repos/10th-challenge/taketwo/dnfs-summer-22-test-efCdCollection/weekend/weekendtest10/efCdCollection.Tests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/saltdev/.nuget/NuGet/NuGet.Config"
@@ -113,8 +113,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/saltdev/Documents/Repos/10th-challenge/taketwo/dnfs-summer-22-test-efCdCollection/efCdCollection.Api/efCdCollection.Api.csproj": {
-                "projectPath": "/Users/saltdev/Documents/Repos/10th-challenge/taketwo/dnfs-summer-22-test-efCdCollection/efCdCollection.Api/efCdCollection.Api.csproj"
+              "/Users/saltdev/Documents/Repos/10th-challenge/taketwo/dnfs-summer-22-test-efCdCollection/weekend/weekendtest10/efCdCollection.Api/efCdCollection.Api.csproj": {
+                "projectPath": "/Users/saltdev/Documents/Repos/10th-challenge/taketwo/dnfs-summer-22-test-efCdCollection/weekend/weekendtest10/efCdCollection.Api/efCdCollection.Api.csproj"
               }
             }
           }

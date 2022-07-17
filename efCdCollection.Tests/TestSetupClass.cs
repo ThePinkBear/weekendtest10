@@ -1,9 +1,9 @@
 using Microsoft.EntityFrameworkCore;
 using System;
 
-public abstract class CDControllerTest
+public abstract class TestSetupClass
 {
-  protected CDControllerTest(DbContextOptions<CDsContext> contextOptions)
+  protected TestSetupClass(DbContextOptions<CDsContext> contextOptions)
   {
     ContextOptions = contextOptions;
     SeedMockCDs();

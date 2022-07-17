@@ -7,4 +7,4 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = efCdCollection.Tests
-build_property.ProjectDir = /Users/saltdev/Documents/Repos/10th-challenge/taketwo/dnfs-summer-22-test-efCdCollection/efCdCollection.Tests/
+build_property.ProjectDir = /Users/saltdev/Documents/Repos/10th-challenge/taketwo/dnfs-summer-22-test-efCdCollection/weekend/weekendtest10/efCdCollection.Tests/

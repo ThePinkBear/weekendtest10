@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 
-public class CDsControllerTest : CDControllerTest
+public class CDsControllerTest : TestSetupClass
 {
   public CDsControllerTest() : base(
 
