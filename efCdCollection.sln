@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "efCdCollection.Api", "efCdCollection.Api\efCdCollection.Api.csproj", "{D1711235-C041-46EC-8F8A-E0F48742157E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "efCdCollection.Tests", "efCdCollection.Tests\efCdCollection.Tests.csproj", "{3BD4BD2C-F463-4A95-A5E8-D7B750B79E28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1711235-C041-46EC-8F8A-E0F48742157E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1711235-C041-46EC-8F8A-E0F48742157E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1711235-C041-46EC-8F8A-E0F48742157E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1711235-C041-46EC-8F8A-E0F48742157E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BD4BD2C-F463-4A95-A5E8-D7B750B79E28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BD4BD2C-F463-4A95-A5E8-D7B750B79E28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BD4BD2C-F463-4A95-A5E8-D7B750B79E28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BD4BD2C-F463-4A95-A5E8-D7B750B79E28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
